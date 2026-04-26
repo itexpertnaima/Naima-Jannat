@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+HEAD
 // 1) Even numbers between 1 and 20
 for (let i = 1; i <= 20; i++) {
     if (i % 2 === 0) {
@@ -84,6 +84,6 @@ console.log("Find Average:", findAverage([1, 2, 3, 4, 5, 6]));
 // // 8) Write a function named isLeapYear that takes a year as an argument and returns true if the year is a leap year, and false if it is not.
 const isLeapYear = year => (year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0);
 
-console.log("Is Leap Year (2020)?", isLeapYear(2020)); 
-console.log("Is Leap Year (2021)?", isLeapYear(2021));
->>>>>>> 37ed2a223567b00ee95b9ae4dab25fd929c12b79
+console.log("Is Leap Year (2020)?", isLeapYear(2022)); 
+console.log("Is Leap Year (2021)?", isLeapYear(2025));
+37ed2a223567b00ee95b9ae4dab25fd929c12b79
